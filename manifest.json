@@ -8,6 +8,7 @@
         {
             "matches": ["*://imgur.com/*"],
             "js": ["hide-imgur.js"],
+            "css": ["hide-imgur.css"],
             "run_at": "document_end"
         }
     ],

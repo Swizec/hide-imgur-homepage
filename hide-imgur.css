@@ -1,0 +1,33 @@
+.hide-imgur-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hide-imgur-content img {
+    max-height: 512px;
+    padding: 3em;
+}
+
+.hide-imgur-content h1:first-child {
+    padding-top: 1.5em;
+    font-size: 2em;
+    padding-bottom: 0.3em;
+}
+
+.hide-imgur-content p {
+    font-size: 1.2em;
+}
+
+.hide-imgur-content big {
+    font-size: 3em;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.6em;
+    text-align: center;
+}
+
+.hide-imgur-content small {
+    font-size: 0.8em;
+    text-align: center;
+}

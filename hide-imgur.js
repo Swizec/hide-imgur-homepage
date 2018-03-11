@@ -4,7 +4,9 @@ const advice = [
     "Do 10 pushups",
     "Do 10 squats",
     "Walk around for 5 minutes",
-    "Gaze through the window to rest your eyes"
+    "Gaze through the window to rest your eyes",
+    "Make some coffee or tea",
+    "Ask a coworker about their weekend"
 ];
 
 function hideElement(query) {
@@ -42,13 +44,15 @@ function putUpSomeContent() {
     }
 
     div.innerHTML = `
-    <h1>HideImgurHomepage saved you from ${N} distracting images.</h1>
+    <h1>🎉 Hide Imgur Homepage just saved you from ${N} distracting images. 🎉</h1>
     <h1>You're welcome!</h1>
     <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a>
-    <p>Now, you obviously came here because you need a break.</p>
+    <p>You obviously came here because you need a break. Work is hard. 👇</p>
     <p><big>${advice[Math.floor(Math.random() * advice.length)]}</big></p>
-    <p>Feel better? Get back to work!</p>
-    <p><small></small></p>
+    <p>Better? Get back to work!</p>
+    <p><br/></p>
+    <p><small>To add more advice, submit a PR on <a href="https://github.com/Swizec/hide-imgur-homepage">GitHub</a></small></p>
+    <p><small>Built by <a href="https://swizec.com/blog">Swizec Teller</a> <br />during a <a href="https://www.youtube.com/SwizecTeller">livecoding session</a></small></p>
     `;
 }
 
