@@ -2,15 +2,16 @@ function hideElement(query) {
     let el = document.querySelector(query);
     if (el) {
         el.style.visibility = "hidden";
+        return true;
+    } else {
+        return false;
     }
 }
 
 function hideAsync(query) {
-    const el = document.querySelector(query);
+    const hidden = hideElement(query);
 
-    if (el) {
-        hideElement(query);
-    } else {
+    if (!hidden) {
         setTimeout(function() {
             hideAsync(query);
         }, 1000);
