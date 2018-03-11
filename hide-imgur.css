@@ -2,32 +2,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99999999;
+    height: 100vh;
+    width: 100vw;
+    left: 0px;
+    top: 50px;
 }
 
 .hide-imgur-content img {
-    max-height: 512px;
-    padding: 3em;
+    height: 256px;
+    padding: 3vh;
 }
 
 .hide-imgur-content h1:first-child {
-    padding-top: 1.5em;
-    font-size: 2em;
-    padding-bottom: 0.3em;
+    font-size: 3.5vh;
+    padding-bottom: 0.6vh;
 }
 
 .hide-imgur-content p {
-    font-size: 1.2em;
+    font-size: 1.8vh;
 }
 
 .hide-imgur-content big {
-    font-size: 3em;
+    font-size: 6.5vh;
     font-weight: bold;
     display: inline-block;
-    padding: 0.6em;
+    padding: 1.5vh;
     text-align: center;
 }
 
 .hide-imgur-content small {
-    font-size: 0.8em;
+    font-size: 1.4vh;
     text-align: center;
+    display: inline-block;
 }

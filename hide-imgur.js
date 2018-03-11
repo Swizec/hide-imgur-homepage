@@ -25,7 +25,7 @@ function hideAsync(query) {
     if (!hidden) {
         setTimeout(function() {
             hideAsync(query);
-        }, 1000);
+        }, 100);
     } else {
         putUpSomeContent();
     }
@@ -57,9 +57,12 @@ function putUpSomeContent() {
 }
 
 // Go through dangerouns elements and hide them
-["#imagelist", "#top-comments", ".sentence-sorting", "#right-content"].forEach(
-    hideElement
-);
-hideAsync("#extended-imagelist");
+[
+    "#imagelist",
+    "#top-comments",
+    ".sentence-sorting",
+    "#right-content",
+    "#extended-imagelist"
+].forEach(hideAsync);
 
 putUpSomeContent();
