@@ -32,6 +32,8 @@ function hideAsync(query) {
 }
 
 function putUpSomeContent() {
+    if (!document.querySelector("#content")) return;
+
     const N = document.querySelectorAll(".post").length,
         sorting = document.querySelector(".sentence-sorting");
 
