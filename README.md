@@ -2,7 +2,7 @@
 
 A Chrome extension that replaces the Imgur homepage with tips for taking a healthy break. New tip every time you slack.
 
-![]()
+![](https://raw.githubusercontent.com/Swizec/hide-imgur-homepage/master/howitworks.gif)
 
 You can still use Imgur as a place to host images. You can still visit individual pages when somebody sends you a link.
 
