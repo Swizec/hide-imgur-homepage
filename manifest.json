@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Hide imgur homepage",
-    "version": "1.0",
+    "version": "1.1",
     "description":
         "Replace the Imgur homepage with tips for taking a healthy break. New tip every time you slack.",
     "icons": {
