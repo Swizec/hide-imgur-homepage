@@ -64,7 +64,8 @@ function putUpSomeContent() {
     "#top-comments",
     ".sentence-sorting",
     "#right-content",
-    "#extended-imagelist"
+    "#extended-imagelist",
+    ".next-prev"
 ].forEach(hideAsync);
 
 putUpSomeContent();
