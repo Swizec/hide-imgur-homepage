@@ -1,6 +1,6 @@
 # Hide Imgur Homepage
 
-A Chrome extension that replaces the Imgur homepage with tips for taking a healthy break.
+A Chrome extension that replaces the Imgur homepage with tips for taking a healthy break. New tip every time you slack.
 
 ![]()
 
