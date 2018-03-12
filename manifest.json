@@ -3,7 +3,7 @@
     "name": "Hide imgur homepage",
     "version": "1.0",
     "description":
-        "Hide imgur's homepage so you don't fall into a black hole of awesome images. You can continue to use Imgur as an image host and when visiting direct links",
+        "Replace the Imgur homepage with tips for taking a healthy break. New tip every time you slack.",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
